@@ -1,0 +1,132 @@
+.chatOfPeople{
+    position: absolute;
+    flex: 0.65;
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    height: 73%;
+    left: 610px;
+    top: 140px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+}
+.chat_body{
+    flex:1;
+    padding: 30px ;
+    overflow:scroll;
+}
+    
+    .profile{
+        display: flex;
+        flex-direction: row;
+    position: absolute;
+    width: 780px;
+    height: 70px;
+    background: #303C6C;
+    border-radius: 20px 20px 0px 0px;
+    }
+    .profile > .lastseen{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        font-size: 10px;
+    }
+   .lastseen> h3{        margin-top: 15px;
+    color: #FFFFFF;
+    }
+    .lastseen> p{
+        color: gray;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .avatar{
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    
+    .dot{
+        margin-top: 20px;
+        margin-left: 400px ;
+    color: #FFFFFF;
+    }
+    
+    .cross{
+        margin-top: 20px;
+        margin-left: 30px;
+        color: #FFFFFF;
+    }
+    
+    .bottom{
+    position: absolute;
+    width: 650px;
+    height: 40px;
+    left: 30px;
+    top: 487px;
+    display: flex;
+    flex-direction: row;
+    
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-sizing: border-box;
+    border-radius: 10px;
+    }
+    
+    .bottom>input{
+        align-items: center;
+        border: none;
+        padding: 10px;
+        margin-left: 15px;
+    letter-spacing: 0.02em;
+    outline: none;
+    color: #3C3C3C;
+    
+    }
+    
+    .attach{
+        padding-top: 5px;
+        margin-left: 420px;
+        color: #3C3C3C;
+        font-size: 26px;
+        cursor: pointer;
+    }
+    
+    .send{
+        position: absolute;
+        border-radius: 50%;
+        padding: 10px;
+        margin-left: 86vw;
+        background: #C4C4C4;
+        color: #3C3C3C;
+        font-size: 27px;
+        margin-top: 73vh;
+    }
+   
+    .chat_message{
+        width:fit-content;
+        font-size: 16px;
+        padding:10px ;
+        border-radius: 10px;
+        background-color: #f4f4f4;
+        margin-bottom: 15px;
+     }
+     .chat_reciever{
+        margin-left: auto;
+        background-color: #b2c2c4c2
+    }
+    .bottom > button{
+        display: none;
+    }
+    .chat_message{
+        font-size: 16px;
+        padding: 10px;
+    }
+    .chat_timestamp{
+        margin-left: 10px;
+        font-size: xx-small;
+    }
+.file{
+    position: relative;
+    margin-left: 620px;
+    margin-bottom: 30px;
+}
